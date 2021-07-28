@@ -46,8 +46,8 @@ class Nginx < Formula
       --with-cc-opt=#{cc_opt}
       --with-ld-opt=#{ld_opt}
       --conf-path=#{etc}/nginx/nginx.conf
-      --pid-path=#{var}/run/nginx.pid
-      --lock-path=#{var}/run/nginx.lock
+      --pid-path=#{var}/run/nginx/nginx.pid
+      --lock-path=#{var}/run/nginx/nginx.lock
       --http-client-body-temp-path=#{var}/run/nginx/client_body_temp
       --http-proxy-temp-path=#{var}/run/nginx/proxy_temp
       --http-fastcgi-temp-path=#{var}/run/nginx/fastcgi_temp
